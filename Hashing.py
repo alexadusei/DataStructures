@@ -86,7 +86,7 @@ def main():
 
 # Returns an array of all text-names
 def read_names():
-    return [line.strip() for line in open("top_secret_agent_aliases_2015.txt", "r")]
+    return [line.strip() for line in open("Hashing.txt", "r")]
 
 # Returns an array (a hash table in this case) of empty addresses ("")
 def create_table(size):
